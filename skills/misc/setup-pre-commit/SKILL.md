@@ -29,7 +29,7 @@ husky lint-staged prettier
 ### 3. Initialize Husky
 
 ```bash
-npx husky init
+npx --no-install husky init
 ```
 
 This creates `.husky/` dir and adds `prepare: "husky"` to package.json.
@@ -39,7 +39,7 @@ This creates `.husky/` dir and adds `prepare: "husky"` to package.json.
 Write this file (no shebang needed for Husky v9+):
 
 ```
-npx lint-staged
+npx --no-install lint-staged
 npm run typecheck
 npm run test
 ```
@@ -76,11 +76,11 @@ Only create if no Prettier config exists. Use these defaults:
 - [ ] `.lintstagedrc` exists
 - [ ] `prepare` script in package.json is `"husky"`
 - [ ] `prettier` config exists
-- [ ] Run `npx lint-staged` to verify it works
+- [ ] Run `npx --no-install lint-staged` to verify it works
 
 ### 8. Commit
 
-Stage all changed/created files and commit with message: `Add pre-commit hooks (husky + lint-staged + prettier)`
+Stage only the files this skill created or changed (never `git add -A`) and commit with message: `Add pre-commit hooks (husky + lint-staged + prettier)`
 
 This will run through the new pre-commit hooks: a good smoke test that everything works.
 
