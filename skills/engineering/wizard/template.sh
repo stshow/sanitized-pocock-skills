@@ -43,6 +43,9 @@ banner() {
   printf '%s  You drive the browser; this wizard tells you exactly what to do and\n' "$DIM"
   printf '  captures the values you copy back. Stop any time with Ctrl-C and re-run\n'
   printf '  later, since it remembers values already saved.%s\n' "$RESET"
+  if git rev-parse --is-inside-work-tree >/dev/null 2>&1 && ! git check-ignore -q "$ENV_FILE"; then
+    warn "$ENV_FILE is not git-ignored: add it to .gitignore so secrets aren't committed"
+  fi
   pause "Ready to start?"
 }
 
