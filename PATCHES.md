@@ -16,3 +16,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | skills/engineering/wizard | 1 | [patches.md](skills/engineering/wizard/patches.md) |
 | skills/in-progress/chief-of-staff | 1 | [patches.md](skills/in-progress/chief-of-staff/patches.md) |
 | skills/in-progress/claude-handoff | 1 | [patches.md](skills/in-progress/claude-handoff/patches.md) |
+| skills/in-progress/setup-ts-deep-modules | 1 | [patches.md](skills/in-progress/setup-ts-deep-modules/patches.md) |

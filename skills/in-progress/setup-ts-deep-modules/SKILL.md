@@ -46,7 +46,7 @@ Layering (which packages may depend on which) is a *different* concern and is le
 
 ### 2. Install dependency-cruiser
 
-Install `dependency-cruiser` as a devDependency with the detected package manager.
+Install `dependency-cruiser` as a devDependency with the detected package manager, pinned to an exact version (no `^`/`~` range, e.g. the package manager's exact/save-exact option) so the lockfile records it and later installs don't silently pull a different release.
 
 **Done when:** `dependency-cruiser` is in `devDependencies`.
 
