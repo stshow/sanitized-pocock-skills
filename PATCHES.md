@@ -11,3 +11,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | skills/engineering/setup-matt-pocock-skills | 1 | [patches.md](skills/engineering/setup-matt-pocock-skills/patches.md) |
 | skills/engineering/to-spec | 1 | [patches.md](skills/engineering/to-spec/patches.md) |
 | skills/engineering/to-tickets | 1 | [patches.md](skills/engineering/to-tickets/patches.md) |
+| skills/engineering/triage | 1 | [patches.md](skills/engineering/triage/patches.md) |
