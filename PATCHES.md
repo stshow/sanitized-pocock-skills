@@ -19,3 +19,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | skills/in-progress/setup-ts-deep-modules | 1 | [patches.md](skills/in-progress/setup-ts-deep-modules/patches.md) |
 | skills/misc/migrate-to-shoehorn | 1 | [patches.md](skills/misc/migrate-to-shoehorn/patches.md) |
 | skills/misc/setup-pre-commit | 1 | [patches.md](skills/misc/setup-pre-commit/patches.md) |
+| skills/productivity/teach | 1 | [patches.md](skills/productivity/teach/patches.md) |
