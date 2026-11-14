@@ -10,7 +10,7 @@ The user has asked for a **retrospective**. You are suggesting improvements to t
 
 1. Call the Skill tool with `writing-for-agents` for the writing style guide.
 
-2. Read the primary sources for the session the user specifies. This may mean searching through session logs on this machine. If the user doesn't specify a session, default to the current one.
+2. Read the primary sources for the session the user specifies. This may mean locating that one session's log on this machine; read only that session's log (not other sessions or projects), and do not repeat secrets or personal data from it in your output. If the user doesn't specify a session, default to the current one.
 
 3. Look for candidates for improvement in these categories.
 
