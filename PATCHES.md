@@ -15,3 +15,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | skills/engineering/triage | 3 | [patches.md](skills/engineering/triage/patches.md) |
 | skills/engineering/wayfinder | 2 | [patches.md](skills/engineering/wayfinder/patches.md) |
 | skills/engineering/wizard | 1 | [patches.md](skills/engineering/wizard/patches.md) |
+| skills/in-progress/chief-of-staff | 3 | [patches.md](skills/in-progress/chief-of-staff/patches.md) |
