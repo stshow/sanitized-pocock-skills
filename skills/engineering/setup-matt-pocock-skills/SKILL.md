@@ -68,6 +68,7 @@ Show the user a draft of:
 
 - The `## Agent skills` block to add to whichever of `CLAUDE.md` / `AGENTS.md` is being edited (see step 4 for selection rules)
 - The contents of `docs/agents/issue-tracker.md`, `docs/agents/domain.md`, and `docs/agents/triage-labels.md` (the last only when `triage` is installed)
+- When Section B ran on GitHub or GitLab, the exact label names step 4 will create in the remote tracker; create only the labels listed here.
 
 Let them edit before writing.
 
@@ -103,7 +104,7 @@ The block:
 
 Include the `### Triage labels` sub-block, and write `docs/agents/triage-labels.md`, only when `triage` is installed and Section B ran. When it isn't, both are omitted.
 
-When Section B ran on GitHub or GitLab, create each configured label the tracker lacks (`gh label create` / `glab label create`).
+When Section B ran on GitHub or GitLab, create each configured label the tracker lacks (`gh label create` / `glab label create`). First resolve the target with `gh repo view --json nameWithOwner` / `glab repo view`, pass that repo explicitly with `--repo`, and create labels only in the user's own repo, never in an upstream parent of a fork; list the labels to be created in the step 3 draft.
 
 Then write the docs files using the seed templates in this skill folder as a starting point:
 

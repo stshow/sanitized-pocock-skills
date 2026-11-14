@@ -9,3 +9,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | skills/engineering/improve-codebase-architecture | 2 | [patches.md](skills/engineering/improve-codebase-architecture/patches.md) |
 | skills/engineering/research | 1 | [patches.md](skills/engineering/research/patches.md) |
 | skills/engineering/retro | 1 | [patches.md](skills/engineering/retro/patches.md) |
+| skills/engineering/setup-matt-pocock-skills | 2 | [patches.md](skills/engineering/setup-matt-pocock-skills/patches.md) |
